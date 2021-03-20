@@ -1,7 +1,11 @@
-@import 'font.css'
+@import 'font.css';
 
 *{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat';
+    scroll-behavior: smooth;
 }
 .container{
     max-width: 1320px;
@@ -164,3 +168,114 @@ ul{
     font-size: 24px;
 }
 /* header end */
+
+
+/* section future start */
+.future__driver{
+    position: relative;
+}
+.future__driver img{
+    position: absolute;
+}
+.section__future-content{
+    position: absolute;
+    right: 0;
+    background: #E51937;
+    padding: 51px 44px 63px 52px;
+    min-height: 440px;
+}
+.future__drive{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;      
+    margin-bottom: 11px; 
+}
+.future__txt{
+    max-width: 316px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;  
+    margin-bottom: 50px; 
+}
+.car__saloon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.saloon__icon{
+    font-size: 40px;
+    color: white;
+    margin-right: 20px;
+    font-weight: normal;
+}
+.saloon{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF;    
+}
+.saloon__span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;    
+}
+.saloon__txt{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    max-width: 150px;
+}
+.saloon2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF; 
+    max-width: 170px;
+    width: 100%;   
+}
+.saloon__icon2{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+    font-weight: normal;
+}
+.know__about{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+}
+.info__icon{
+    font-size: 22px;
+    margin-right: 10px;
+    color: white;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.content__btn{
+    border: 2px solid #FFFFFF;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+    display: inline-block;
+    max-width: 160px;
+    width: 100%;
+    padding: 10px 0;
+}
+.contents{
+    margin-top: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+/* section future end */
