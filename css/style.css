@@ -277,9 +277,7 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-header{
-    overflow: hidden;
-}
+
 /* section future end */
 
 
@@ -291,7 +289,7 @@ header{
 .settings img{
     position: absolute;
     top: 25%;
-    right: 8%;
+    right: 0;
 }
 .section__setting-content{
     position: absolute;
